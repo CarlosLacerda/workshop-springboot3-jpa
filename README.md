@@ -1,6 +1,6 @@
 # Projeto Web Services com Spring Boot, JPA e Hibernate
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]((https://github.com/CarlosLacerda/workshop-springboot3-jpa/blob/main/LICENSE))
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/CarlosLacerda/workshop-springboot3-jpa/blob/main/LICENSE)
 ![Java](https://img.shields.io/badge/Java-22-007396?logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.4-6DB33F?logo=springboot&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-3+-C71A36?logo=apachemaven&logoColor=white)
