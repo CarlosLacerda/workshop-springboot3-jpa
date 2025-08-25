@@ -53,4 +53,4 @@ O objetivo é construir uma aplicação web de serviços REST utilizando **Sprin
 ### Passos
 1. Clonar o repositório:
    ```bash
-   git clone <[url-do-repositorio](https://github.com/CarlosLacerda/workshop-springboot3-jpa.git)>
+   git clone <[https://github.com/CarlosLacerda/workshop-springboot3-jpa.git]>
