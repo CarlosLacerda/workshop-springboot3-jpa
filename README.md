@@ -53,4 +53,54 @@ O objetivo é construir uma aplicação web de serviços REST utilizando **Sprin
 ### Passos
 1. Clonar o repositório:
    ```bash
-   git clone <https://github.com/CarlosLacerda/workshop-springboot3-jpa.git>
+   git clone https://github.com/CarlosLacerda/workshop-springboot3-jpa.git
+   ```
+
+2. Acessar a pasta do projeto:
+   ```bash
+   cd workshop-springboot3-jpa
+   ```
+
+3. Executar a aplicação com o perfil de teste (H2 Database):
+   ```bash
+   ./mvnw spring-boot:run -Dspring-boot.run.profiles=test
+   ```
+   Ou usar o botão **Run** da sua IDE
+
+4. Acessar o console do H2 (perfil de teste):
+   ```
+   http://localhost:8080/h2-console
+   ```
+
+## ⚡ Endpoints Principais
+- `GET /users` → Lista todos os usuários
+- `GET /users/{id}` → Busca um usuário por ID
+- `POST /users` → Cria um novo usuário
+- `PUT /users/{id}` → Atualiza um usuário existente
+- `DELETE /users/{id}` → Exclui um usuário
+
+*Endpoints para pedidos, produtos e categorias serão adicionados em breve.*
+
+## 📦 Deploy
+O projeto suporta diferentes ambientes:
+- **Test** → Banco H2 (em memória)
+- **Dev** → PostgreSQL local
+- **Prod** → Deploy em serviços como Heroku, AWS ou Railway
+
+### Configuração para Deploy
+1. Configurar as variáveis de ambiente para o banco de dados (ex.: `application-prod.properties`)
+2. Executar o build do projeto:
+   ```bash
+   ./mvnw clean package
+   ```
+3. Fazer o deploy no serviço de sua escolha
+
+## 📖 Referências
+- [Repositório oficial do curso (Spring Boot 2)](https://github.com/acenelio/workshop-springboot2-jpa)
+- [Repositório oficial do curso (Spring Boot 3)](https://github.com/acenelio/workshop-springboot3-jpa)
+
+## 📜 Licença
+Este projeto está licenciado sob a [MIT License](https://github.com/CarlosLacerda/workshop-springboot3-jpa/blob/main/LICENSE).
+
+## 🤝 Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests no [repositório](https://github.com/CarlosLacerda/workshop-springboot3-jpa).
